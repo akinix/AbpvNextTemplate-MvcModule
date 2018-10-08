@@ -1,0 +1,9 @@
+{
+  "MyCompanyName": "MyCompanyName",
+  "MyProjectName": "MyProjectName",
+  
+  "_copy_without_render": [
+		"*.gitattributes",
+		"*.gitignore"
+    ]
+}
