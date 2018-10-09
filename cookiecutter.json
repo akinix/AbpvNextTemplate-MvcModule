@@ -3,7 +3,8 @@
   "project_name": "MyProjectName",
   
   "_copy_without_render": [
-		"*.gitattributes",
-		"*.gitignore"
+	  "*.gitattributes",
+	  "*.gitignore",
+	  "wwwroot/*"
     ]
 }
