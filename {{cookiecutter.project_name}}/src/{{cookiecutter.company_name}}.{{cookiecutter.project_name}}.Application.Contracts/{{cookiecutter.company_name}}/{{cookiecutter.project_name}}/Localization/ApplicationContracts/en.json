@@ -1,6 +1,0 @@
-{
-  "culture": "en",
-  "texts": {
-    "Permission:{{cookiecutter.project_name}}": "{{cookiecutter.project_name}}"
-  }
-}
