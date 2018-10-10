@@ -31,6 +31,8 @@ the length of the name has been changed very long, but in windows, the length of
 - Navigate to the following directory:  Local Computer Policy > Computer Configuration > Administrative Templates > System > Filesystem.
 - Click Enable `Enabling Win32 long paths` option and enable it.
 
+> **restart your computer after edit Group Policy.**
+
 ### Edit Git
 
 - run the `git bash` command
