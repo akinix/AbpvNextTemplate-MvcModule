@@ -28,8 +28,8 @@ the length of the name has been changed very long, but in windows, the length of
 ### Edit Group Policy
 
 - Open Group Policy Editor (Press Windows Key and type gpedit.msc and hit Enter key.
-- Navigate to the following directory:  Local Computer Policy > Computer Configuration > Administrative Templates > System > Filesystem > NTFS.
-- Click Enable NTFS long paths option and enable it.
+- Navigate to the following directory:  Local Computer Policy > Computer Configuration > Administrative Templates > System > Filesystem.
+- Click Enable `Enabling Win32 long paths` option and enable it.
 
 ### Edit Git
 
