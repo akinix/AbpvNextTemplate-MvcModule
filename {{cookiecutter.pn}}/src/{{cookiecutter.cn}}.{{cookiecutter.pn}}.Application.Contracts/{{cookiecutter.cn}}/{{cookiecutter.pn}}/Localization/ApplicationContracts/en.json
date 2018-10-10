@@ -1,0 +1,6 @@
+{
+  "culture": "en",
+  "texts": {
+    "Permission:{{cookiecutter.pn}}": "{{cookiecutter.pn}}"
+  }
+}
