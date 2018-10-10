@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.0.8.9" />
+    <ProjectReference Include="..\{{cookiecutter.cn}}.{{cookiecutter.pn}}.Domain\{{cookiecutter.cn}}.{{cookiecutter.pn}}.Domain.csproj" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="0.5.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\{{cookiecutter.cn}}.{{cookiecutter.pn}}.MongoDB\{{cookiecutter.cn}}.{{cookiecutter.pn}}.MongoDB.csproj" />
+    <ProjectReference Include="..\{{cookiecutter.cn}}.{{cookiecutter.pn}}.TestBase\{{cookiecutter.cn}}.{{cookiecutter.pn}}.TestBase.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.2" />
+    <PackageReference Include="Mongo2Go" Version="2.2.1" />
+  </ItemGroup>
+
+</Project>
