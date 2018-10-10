@@ -1,6 +1,6 @@
 {
-  "company_name": "MyCompanyName",
-  "project_name": "MyProjectName",
+  "cname": "MyCompanyName",
+  "pname": "MyProjectName",
   
   "_copy_without_render": [
 	  "*.gitattributes",
